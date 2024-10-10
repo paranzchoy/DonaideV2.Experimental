@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DonaideV2.Experimental.Domain\DonaideV2.Experimental.Domain.csproj" />
     <ProjectReference Include="..\DonaideV2.Experimental.Web.Client\DonaideV2.Experimental.Web.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="9.0.0-rc.2.24474.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0-rc.1.24452.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.0-rc.2.24474.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0-rc.2.24474.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.0-rc.2.24474.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0-rc.2.24474.1" />
