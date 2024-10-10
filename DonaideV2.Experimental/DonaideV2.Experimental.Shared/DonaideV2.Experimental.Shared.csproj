@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -11,8 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0-rc.1.24452.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0-rc.2.24474.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0-rc.2.24508.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0-rc.2.24474.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="9.0.0-rc.2.24474.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DonaideV2.Experimental.Domain\DonaideV2.Experimental.Domain.csproj" />
+    <ProjectReference Include="..\..\DonaideV2.Experimental.Infrastructure\DonaideV2.Experimental.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

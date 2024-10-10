@@ -1,7 +1,8 @@
 ﻿@page "/people/edit"
 @using Microsoft.EntityFrameworkCore
 @using DonaideV2.Experimental.Domain
-@inject IDbContextFactory<DonaideV2.Experimental.Web.Data.ApplicationDbContext> DbFactory
+@using DonaideV2.Experimental.Infrastructure.Data
+@inject IDbContextFactory<ApplicationDbContext> DbFactory
 @inject NavigationManager NavigationManager
 
 <PageTitle>Edit</PageTitle>

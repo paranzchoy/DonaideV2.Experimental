@@ -3,7 +3,7 @@ using DonaideV2.Experimental.Web.Components;
 using DonaideV2.Experimental.Web.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using DonaideV2.Experimental.Web.Data;
+using DonaideV2.Experimental.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFactory<ApplicationDbContext>(options =>
